@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/* CSS pour les élements récurrents du site */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/*flottants*/
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    font-family: 'Asap', sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+a {
+    display: block;
+}
+
+#mainNav {
+    width: 70px;
+    height: 100vh;
+    background-color: #66A6FF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 300;
+}
+
+.containIconMenu {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+
+.containIconMenu a {
+    font-size: 40px;
+    color: white;
+}
+
+main {
+    margin-left: 80px;
+}
+
+#titlePage {
+    height: 80px;
+    line-height: 80px
+}

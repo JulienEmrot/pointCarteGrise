@@ -1,0 +1,637 @@
+@charset "UTF-8";
+/* CSS pour les élements récurrents du site */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/*flottants*/
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    font-family: 'Asap', sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+a {
+    display: block;
+}
+
+
+
+
+#topBar {
+    width: 100vw;
+    height: 90px;
+    box-shadow:0px 3px 6px rgba(0, 0, 0, 0.161);
+    display: flex;
+    justify-content: center;
+}
+
+#contentTopBar {
+    width: 100%;
+    max-width: 1920px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+#contentLogo {
+    width: 320px;
+}
+
+.open {
+    color: limegreen;
+}
+
+.iconTel {
+    color: #367CB6;
+    font-size: 25px;
+}
+
+#contentDOT {
+    display: flex;
+    align-items: center;
+}
+#numTel {
+    display: flex;
+}
+
+#isOpen {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+#numTel i,
+#isOpen i {
+    margin-right: 5px;
+}
+
+#demarches {
+    position: relative;
+    margin-right: 20px;
+}
+
+#getDemarches {
+    width: 220px;
+    height: 40px;
+    background: #367CB6;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+#listDemarches {
+    position: absolute;
+    display: none;
+    background: white;
+    width: 220px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+
+}
+
+#listDemarches a {
+    color: black;
+    display: block;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#downArrow {
+    margin-left: 20px;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: white;
+}
+
+.contentPage {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pages {
+         width: 1920px;
+         height: 80%
+}
+
+#carOne {
+    width: 50%;
+    max-height: 950px;
+}
+
+#contentPage1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 15vh;
+}
+
+#contentRightOne {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contentHT {
+    height: 80%;
+    max-width: 590px;
+    width: 80%;
+    max-height: 600px;
+    min-height: 500px;
+    background-color: white;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.161);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+}
+
+.horraires {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#contentBtn1 {
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+}
+#soonBtn {
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+}
+
+#partOnePageOne {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#btnRdv {
+    background-color: white;
+    border: 1px solid #367CB6;
+    width: 250px;
+    height: 40px;
+    color: #367CB6;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+#btnRdv::after {
+    content: "Bientôt disponible";
+    display: block;
+    width: 250px;
+    text-align: center;
+    color: #367CB6;
+}
+
+#btnRendre {
+    background-color: #367CB6;
+    width: 250px;
+    height: 40px;
+    color: white;
+    border-radius: 25px;
+    border: 1px solid #367CB6;
+    text-align: center;
+    line-height: 40px;
+}
+
+.iconHorLieu {
+    color: #367CB6;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 80%;
+    text-align: center;
+}
+
+#iconLieu {
+    width: 100%;
+    text-align: center;
+}
+
+#iconLieu::before {
+    width: 80%;
+    content: "";
+    display: block;
+    height: 2px;
+    background-color: #367CB6;
+    margin: 30px auto;
+}
+
+.actualDay {
+    color: #367CB6;
+    font-weight: 700;
+}
+
+.close {
+    color: red;
+}
+
+#page2left {
+    width: 50%;
+    height: 100vh;
+    background: linear-gradient(#66A6FF,#367CB6);
+}
+
+.centerFlexC {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.gras {
+    font-weight: 700;
+}
+
+#title2 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: normal;
+    transition-duration: .4s;
+}
+
+#getList {
+    width: 100%;
+    max-width: 580px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    transition-duration: .4s;
+}
+
+#nameDemarche {
+    width: 80%;
+    height: 40px;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+.labelList {
+    width: 80%;
+    max-width: 580px;
+    text-align: left;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#contentRadio {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    font-size: 20px;
+    align-items: center;
+    justify-content: left;
+    width: 80%;
+    max-width: 580px;
+}
+
+#contentRadio label {
+    margin-bottom: 0;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+#contentResultList {
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    max-width: 550px;
+    display: flex;
+}
+
+#contentResultList::before {
+    content: "";
+    background-color: white;
+    width: 200px;
+    height: 1px;
+    margin-bottom: 30px;
+}
+
+.piafStyle {
+    width: 80%;
+
+    height: 35px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    margin-bottom: 10px;
+    line-height: 35px;
+    border-radius: 10px;
+}
+
+#page2right {
+    width: 50%;
+    height: 100vh;
+}
+
+#page2 {
+    display: flex;
+}
+
+#hommeArticle {
+    width: 35%;
+    position: absolute;
+    top: 80%;
+    left: -12%;
+    z-index: -100;
+}
+
+#page3 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#contentPage3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 1000px;
+    margin-top: 8vh;
+}
+
+.article {
+    height: 460px;
+    width: 409px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#rectangleArticle {
+    width: 84%;
+    position: absolute;
+    top: 62%;
+    left: 14%;
+    z-index: -100;
+}
+
+#contentMoreArticle {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#contentMoreArticle a {
+    display: block;
+    color: white;
+    border-radius: 20px;
+    line-height: 40px;
+    padding: 0 15px;
+    height: 40px;
+    border: 1px solid white;
+    text-transform: uppercase;
+}
+
+.contentImgArticle {
+    width: 100%;
+    height: 230px;
+    border-radius: 10px;
+}
+
+.contentTextMore {
+    background-color: white;
+    height: 210px;
+    width: 100%;
+    box-shadow:0px 3px 6px rgba(0, 0, 0, 0.161);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.titleArticle {
+    color: #045BA4;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.titleArticle::after {
+    width: 40px;
+    height: 1px;
+    background-color: #045BA4;
+    content: "";
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.textArticle {
+    font-size: 14px;
+}
+
+.showMore {
+    color: #045BA4;
+    border: 1px solid #045BA4;
+    display: block;
+    margin-top: 8px;
+    width: 114px;
+    text-align: center;
+    border-radius: 15px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+}
+
+#imgPiaf {
+    width: 60%;
+}
+
+.contentDateMore {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.contentDate {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    color: #045BA4;
+}
+
+.joursMois {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.jour {
+    line-height: 1.5;
+}
+
+.mois {
+    line-height: 30px;
+    font-size: 12px;
+}
+
+.Annee {
+    line-height: 0;
+}
+
+.contentTextMore {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+@media screen and (max-width:768px) {
+    #contentDOT {
+        display: none;
+    }
+    #contentLogo {
+        width: 35%;
+    }
+}
+
+#mainDemarches {
+    width: 100vw;
+    height: 100vh;
+    padding-top: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#container4col {
+    padding-top: 5%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1366px;
+    padding-bottom: 5%;
+}
+
+.allCol {
+    width: calc(85% / 3);
+    height: 100%;
+    max-height: 1300px;
+}
+
+#colImage {
+    width: 7%;
+    max-height: 1300px;
+}
+
+#titleDemarche {
+    width: 100%;
+}
+
+#col3 {
+    background: linear-gradient(#66A6FF,#367CB6);
+    border-radius: 20px;
+    padding-top: 20px;
+    overflow: scroll;
+}
+
+#infoImportante {
+    border: 2px solid #045BA4;
+    border-radius: 10px;
+    padding: 10px;
+    color: #045BA4;
+    margin-bottom: 30px;
+}
+
+#titleTextOne {
+    font-weight: bold;
+    color: #045BA4;
+}
+
+#contentRadioDemarche {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 580px;
+}
+
+#piafTitle {
+    color: white;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+}
+
+.radioDemarche::after {
+    width: 50%;
+    height: 2px;
+    background-color: white;
+    content: "";
+    display: block;
+    margin: 20px auto;
+}
+
+.piafStyleDem {
+    width: 90%;
+    height: 30px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    margin-bottom: 10px;
+    font-size: 12px;
+    line-height: 30px;
+    border-radius: 10px;
+}

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="564.837" height="648.3" viewBox="0 0 564.837 648.3">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.825" y1="1.045" x2="0.825" y2="0.098" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="gray" stop-opacity="0.251"/>
+      <stop offset="0.54" stop-color="gray" stop-opacity="0.122"/>
+      <stop offset="1" stop-color="gray" stop-opacity="0.102"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.776" y1="1.061" x2="0.776" y2="0.169" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="0.5" y1="1" x2="0.5" y2="0" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="-0.381" y1="1.434" x2="-0.34" y2="2.438" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-opacity="0.122"/>
+      <stop offset="0.55" stop-opacity="0.09"/>
+      <stop offset="1" stop-opacity="0.02"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="0.5" y1="1" x2="0.5" y2="0" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Groupe_38" data-name="Groupe 38" transform="translate(-182.66)">
+    <path id="Tracé_223" data-name="Tracé 223" d="M722.184,658.143l-412.234-33.8L355.382,62.28l412.234,33.8Z" transform="translate(-20.118 -9.843)" fill="url(#linear-gradient)"/>
+    <path id="Tracé_224" data-name="Tracé 224" d="M718.4,651.626l-401.129-32.9L361.481,71.81,762.61,104.7Z" transform="translate(-21.275 -11.35)" fill="#367cb6"/>
+    <path id="Tracé_225" data-name="Tracé 225" d="M725.786,553.791,319.614,632.379,214,78.587,620.172,0Z" transform="translate(-4.953)" fill="url(#linear-gradient-2)"/>
+    <path id="Tracé_226" data-name="Tracé 226" d="M720.185,548.992,324.958,625.466,222.19,86.586,617.417,10.12Z" transform="translate(-6.248 -1.599)" fill="#e0e0e0"/>
+    <rect id="Rectangle_76" data-name="Rectangle 76" width="413.598" height="563.92" transform="translate(258.141 41.828)" fill="url(#linear-gradient-3)"/>
+    <rect id="Rectangle_77" data-name="Rectangle 77" width="402.46" height="548.723" transform="translate(263.714 49.422)" fill="#fff"/>
+    <path id="Tracé_227" data-name="Tracé 227" d="M613.249,224.2c.438,36.717,30.352,66.127,66.808,65.672s65.672-30.571,65.217-67.3a66.514,66.514,0,0,0-44.413-62.043l.2,17.125A22.505,22.505,0,0,1,678.98,200.5h0a22.5,22.5,0,0,1-22.623-22.244l-.2-17.125A66.514,66.514,0,0,0,613.249,224.2Z" transform="translate(-213.914 -80.099)" fill="url(#linear-gradient-4)"/>
+    <path id="Tracé_228" data-name="Tracé 228" d="M745.3,215.354c0-36.726-29.552-66.514-66.017-66.514s-66.017,29.771-66.017,66.514a66.514,66.514,0,0,0,43.663,62.582V260.811A22.5,22.5,0,0,1,679.287,238.3h0a22.5,22.5,0,0,1,22.354,22.514v17.134A66.514,66.514,0,0,0,745.3,215.354Z" transform="translate(-213.918 -78.251)" fill="#367cb6"/>
+    <ellipse id="Ellipse_59" data-name="Ellipse 59" cx="25.376" cy="25.562" rx="25.376" ry="25.562" transform="translate(440.035 102.398)" fill="#fff" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Tracé_229" data-name="Tracé 229" d="M687.484,255.09h0A22.5,22.5,0,0,0,665.13,277.6v17.134a65.816,65.816,0,0,0,44.707,0V277.6A22.5,22.5,0,0,0,687.484,255.09Z" transform="translate(-222.115 -95.044)" fill="#fff" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Tracé_230" data-name="Tracé 230" d="M660.814,207.122a24.947,24.947,0,0,1-2.7-12.882,17.243,17.243,0,0,1,5.624-11.661c3.7-3.174,8.706-4.294,13.547-4.681s9.75-.152,14.515-1.1a30.31,30.31,0,0,0,19.365-13.235c.3,3.747.606,7.578-.11,11.248s-2.6,7.325-5.784,9.261c3.856-1.793,3.435,2.416,2.6,4.934,1.911,2.324,6.55,2.711,6.786,5.717a19.073,19.073,0,0,1-.968,8.883c-1.162,2.77.084,7.662-2.9,7.872" transform="translate(-220.998 -80.578)" fill="#fff" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Tracé_231" data-name="Tracé 231" d="M715.81,187.26s17.681,1.558,5.1,28.028" transform="translate(-230.125 -84.323)" fill="#fff"/>
+    <rect id="Rectangle_78" data-name="Rectangle 78" width="54.668" height="55.063" transform="translate(301.417 483.278)" fill="url(#linear-gradient-5)"/>
+    <rect id="Rectangle_79" data-name="Rectangle 79" width="45.238" height="45.566" transform="translate(306.123 488.027)" fill="#367cb6"/>
+    <rect id="Rectangle_80" data-name="Rectangle 80" width="131.95" height="9.497" transform="translate(399.436 255.43)" fill="#367cb6"/>
+    <rect id="Rectangle_81" data-name="Rectangle 81" width="222.434" height="9.497" transform="translate(399.436 268.725)" fill="#e0e0e0"/>
+    <rect id="Rectangle_82" data-name="Rectangle 82" width="222.434" height="9.497" transform="translate(399.436 282.01)" fill="#e0e0e0"/>
+    <rect id="Rectangle_83" data-name="Rectangle 83" width="131.95" height="9.497" transform="translate(399.436 374.103)" fill="#367cb6"/>
+    <rect id="Rectangle_84" data-name="Rectangle 84" width="222.434" height="9.497" transform="translate(399.436 387.389)" fill="#e0e0e0"/>
+    <rect id="Rectangle_85" data-name="Rectangle 85" width="222.434" height="9.497" transform="translate(399.436 400.683)" fill="#e0e0e0"/>
+    <rect id="Rectangle_86" data-name="Rectangle 86" width="131.95" height="9.497" transform="translate(399.436 492.767)" fill="#367cb6"/>
+    <rect id="Rectangle_87" data-name="Rectangle 87" width="222.434" height="9.497" transform="translate(399.436 506.061)" fill="#e0e0e0"/>
+    <rect id="Rectangle_88" data-name="Rectangle 88" width="222.434" height="9.497" transform="translate(399.436 519.355)" fill="#e0e0e0"/>
+    <path id="Tracé_234" data-name="Tracé 234" d="M182.66,505.22h35.976a9.261,9.261,0,0,1,9.261,9.261v2.341a9.262,9.262,0,0,1-9.261,9.262H182.66Z" transform="translate(0 -79.851)" fill="#fff"/>
+  </g>
+</svg>
