@@ -10,6 +10,11 @@ function formatHeure($heure) {
     echo $newHorraire;
 }
 
+function formatHeurePoint($heure) {
+    $newHorrairePoint = date("H:i", strtotime($heure));
+    echo $newHorrairePoint;
+}
+
 foreach ($getDays as $getDayOf) {
     if ($getDayOf["of"] == 0 && $getDayOf["debut"] <= $heureToday && $getDayOf["fin"] >= $heureToday && $today == $verifDay) {
         $isOpen = "oui";

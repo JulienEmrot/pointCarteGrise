@@ -20,7 +20,13 @@ require_once "../database/database.php";
     <header>
         <div id="mainNav">
             <div class="containIconMenu">
+                <a href="index.php"><i class="fas fa-home"></i></a>
+            </div>
+            <div class="containIconMenu">
                 <a href="changeHorraire.php"><i class="fas fa-clock"></i></a>
+            </div>
+            <div class="containIconMenu">
+                <a href="changePiafs.php"><i class="fas fa-id-card"></i></a>
             </div>
         </div>
     </header>

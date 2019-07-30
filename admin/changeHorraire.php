@@ -19,31 +19,53 @@ require_once "../database/functions/horraires.php";
 <header>
     <div id="mainNav">
         <div class="containIconMenu">
+            <a href="index.php"><i class="fas fa-home"></i></a>
+        </div>
+        <div class="containIconMenu">
             <a href="changeHorraire.php"><i class="fas fa-clock"></i></a>
+        </div>
+        <div class="containIconMenu">
+            <a href="changePiafs.php"><i class="fas fa-id-card"></i></a>
         </div>
     </div>
 </header>
 <main>
-    <h2 id="titlePage">Changer les horraires</h2>
+    <h2 id="titlePage">Changer les horaires</h2>
 
     <section id="contentAllHoraires">
         <?php foreach ($getDays as $getDay) { ?>
             <div class="contentDay <?php if ($today == $nbrDay) {
                 echo 'actualDay';
             } ?>">
-                <p><?php echo $getDay["jour"] ?></p>
-                <p><?php if ($getDay["of"] == 1) {
+                <p class="dayAd"><?php echo $getDay["jour"] ?></p>
+                <p class="horraireAd"><?php if ($getDay["of"] == 1) {
                         echo "Fermé";
                     } else {
                         echo formatHeure($getDay["debut"]) ?>  -  <?php echo formatHeure($getDay["fin"]);
                     }
                     ?>
                 </p>
-                <a href="#"><i class="fas fa-pen"></i></a><a href="closeOrOpenDay.php?id=<?php echo $getDay["id"]?>&open=<?php echo $getDay["of"]?>" class="closeDay">Fermer ce jour</a>
+                <btn class="modifyAd" onclick="getTheDay(<?php echo $getDay["id"]?>)"><i class="fas fa-pen"></i>Modifier</btn>
+                <?php if ($getDay["of"] == 1) { ?>
+                <a class="isCloseAd" href="closeOrOpenDay.php?id=<?php echo $getDay["id"]?>&open=<?php echo $getDay["of"]?>">
+                Ouvrir ce jour</a>
+
+                    <?php } else { ?>
+                <a class="isOpenAd" href="closeOrOpenDay.php?id=<?php echo $getDay["id"]?>&open=<?php echo $getDay["of"]?>">
+                    Fermer ce jour</a>
+                    <?php };
+                    ?>
             </div>
             <?php $nbrDay++;
         } ?>
     </section>
+    <div id="contentWinDay">
+
+    </div>
 </main>
+<script src="requeteAdmin.js"></script>
+<script>
+
+</script>
 </body>
 </html>

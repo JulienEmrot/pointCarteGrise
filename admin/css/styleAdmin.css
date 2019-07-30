@@ -68,3 +68,65 @@ main {
     height: 80px;
     line-height: 80px
 }
+
+.contentDay {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.dayAd {
+    width: 20%;
+}
+
+.horraireAd {
+    width: 30%;
+}
+
+.modifyAd {
+    padding: 5px 10px;
+    background-color: #FDD835;
+    color: white;
+    border-radius: 10px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.delete {
+    padding: 5px 10px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.modifyAd i {
+    margin-right: 10px;
+}
+
+.isOpenAd {
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: white;
+    border-radius: 10px;
+}
+
+.isCloseAd {
+    padding: 5px 10px;
+    background-color: #00C853;
+    color: white;
+    border-radius: 10px;
+}
+#seeAllPiafs {
+    height: 600px;
+    overflow-y: scroll;
+}
+
+.onePiaf {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.pPiaf {
+    width: 40%;
+}
